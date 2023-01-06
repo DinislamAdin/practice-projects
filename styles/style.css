@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: sans-serif;
+    box-shadow: none;
 }
 
 .header {
@@ -62,7 +63,7 @@
     text-align: center;
 }
 .section-button{
-    padding: 30px 25px;
+    padding: 30px 15px;
     font-size: 25px;
     font-weight: 700;
     border-radius: 5px;
@@ -83,6 +84,7 @@
 .plan-container{
     display: flex;
     gap: 25px;
+    text-align: left;
 }
 .donate-plan{
     margin: 100px;
@@ -107,9 +109,9 @@
     margin: 15px 0;
 
 }
-.plan-description{
-    padding: 20px;
-}
+.plan-description{ 
+    padding: 40px 0;
+ } 
 /* how to conrribute */
 .contribute-container{
     display: flex;
