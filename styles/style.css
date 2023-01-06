@@ -6,12 +6,8 @@
 .header {
     background-image: url(../images/donation2.jpg);
     background-repeat: no-repeat;
-    height: 800px;
-    padding: 0 200px;
-    margin: 0 100px;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 /* header-banner styles */
@@ -28,29 +24,128 @@
 }
 
 .btn-primary {
-    background-color: rgb(248, 71, 71);
+    background-color: rgb(240, 82, 82);
     padding: 15px 20px;
-    margin-top: 10px;
+    margin-top: 15px;
     border-radius: 5px;
     font-weight: 700px;
-    font-size: 20px;
+    font-size: 25px;
     border-color: rgb(248, 71, 71);
+    color: #fff;
 }
 
 /* donate today */
-.donate-container {
+.donate-today{
+    text-align: center;
+    margin: 100px 200px;
+}
+.section-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    color: cadetblue;
+}
+.donatetk{
+    display: flex;
+    text-align: center;
+    margin: 50px 200px;
+    gap24px
+}
+.donate-button{
+    padding: 40px 15px;
+    background-color:  rgb(243, 156, 156);
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    border-color:  rgb(243, 156, 156);
+}
+
+/* our donate plan */
+.plan-container{
+    display: flex;
+    gap: 25px;
+}
+.donate-plan{
+    margin: 100px;
+}
+.plan-name{
+    gap: 20px;
+    background-color: rgb(247, 221, 247);
+    padding: 30px;
+    border-radius: 5px;
+}
+.plan-title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.donate-description{
+    padding: 50px 300px;
     text-align: center;
 }
 
-.section-title {
-    font-size: 20px;
-    font-weight: 700;
+.donate-title{
+    margin: 15px 0;
 
 }
-
-.section-description {}
-
-.donate-tk{
+.plan-description{
+    padding: 20px;
+}
+/* how to conrribute */
+.contribute-container{
     display: flex;
-    text-decoration: none;
+    margin: 100px 150px;
+}
+.contribute-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-contribute{
+    padding: 40px;
+    text-align: left;
+}
+/* updates-site */
+.updates-site{
+    text-align: center;
+}
+.update-name{
+   background-color: rgb(252, 200, 200);
+   margin: 20px 200px 100px 200px;
+   padding: 50px 70px;
+   border-radius: 5px 0 5px 5px;
+   gap: 0;
+}
+.update-title{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.update-input{
+   padding: 23px;
+   border-color: hwb(0 85% 4%);
+   background-color: hwb(0 85% 4%);
+   font-weight: 700;
+   border-radius: 5px 0 5px 5px;
+   box-shadow: none;
+}
+.btnp{
+    gap: 0;
+    border-radius: 5px 5px 5px 0;
+}
+.update-description{
+    padding-bottom: 15px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+/* footer */
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color:  rgb(240, 82, 82);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
