@@ -24,7 +24,7 @@
 }
 
 .btn-primary {
-    background-color: rgb(240, 82, 82);
+    background-color: rgb(247, 152, 152);
     padding: 15px 20px;
     margin-top: 15px;
     border-radius: 5px;
@@ -32,6 +32,10 @@
     font-size: 25px;
     border-color: rgb(248, 71, 71);
     color: #fff;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: rgb(252, 71, 71);
 }
 
 /* donate today */
@@ -46,21 +50,33 @@
 }
 
 .section-description {
-    color: cadetblue;
-}
-.donatetk{
-    display: flex;
-    text-align: center;
-    margin: 50px 200px;
-    gap24px
+    color: rgb(31, 22, 22);
 }
 .donate-button{
-    padding: 40px 15px;
-    background-color:  rgb(243, 156, 156);
-    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    margin: 50px 150px;
+}
+.donate-tk{
+    padding: 30px 15px;
+    text-align: center;
+}
+.section-button{
+    padding: 30px 25px;
     font-size: 25px;
     font-weight: 700;
-    border-color:  rgb(243, 156, 156);
+    border-radius: 5px;
+    background-color: #fff;
+    border-color: #fff;
+    color: rgb(109, 95, 95);
+    box-shadow: none;
+}
+.section-button:hover{
+    color: rgb(253, 156, 156);
+    border-color: rgb(253, 156, 156);
+}
+.taka-description{
+    margin-bottom: 20px;
 }
 
 /* our donate plan */
@@ -102,6 +118,7 @@
 .contribute-title{
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 15px;
 }
 .section-contribute{
     padding: 40px;
@@ -112,9 +129,9 @@
     text-align: center;
 }
 .update-name{
-   background-color: rgb(252, 200, 200);
+   background-color: rgb(248, 229, 229);
    margin: 20px 200px 100px 200px;
-   padding: 50px 70px;
+   padding: 70px 70px;
    border-radius: 5px 0 5px 5px;
    gap: 0;
 }
@@ -124,16 +141,12 @@
     padding-bottom: 50px;
 }
 .update-input{
-   padding: 23px;
-   border-color: hwb(0 85% 4%);
-   background-color: hwb(0 85% 4%);
+   padding: 15px;
+   border:none;
+   background-color: rgb(168, 152, 152);
    font-weight: 700;
-   border-radius: 5px 0 5px 5px;
-   box-shadow: none;
-}
-.btnp{
-    gap: 0;
-    border-radius: 5px 5px 5px 0;
+   font-size: 25px;
+   margin-right: -5px;
 }
 .update-description{
     padding-bottom: 15px;
